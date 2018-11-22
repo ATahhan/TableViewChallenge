@@ -5,8 +5,9 @@
 
 
 import UIKit
-
-class VideosTableViewController: UITableViewController
+// TODO Go To StoryBoard and Design your Cell (make sure add identefire for Cell *VideoCell*
+// TODO: Add UITableViewDelegate UITableViewDataSource in VideosTableViewController Class 
+class VideosTableViewController: ViewController
 {
     
     //TODO: Call fetchVideos() Function
@@ -29,16 +30,13 @@ class VideosTableViewController: UITableViewController
        // TODO: return number of videos in array of Video
 
     
-        // TODO : Connect collection view with cell
+        // TODO : Connect TableView view with cell
         // TODO : connect cell with name of Video and Video Image  and return Cell
     
     
     
     // MARK: - UITableViewDelegate
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
-    {
-        tableView.deselectRow(at: indexPath, animated: true)
-    }
+    
     
 }
