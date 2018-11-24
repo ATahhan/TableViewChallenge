@@ -7,12 +7,18 @@
 import UIKit
 // TODO Go To StoryBoard and Design your Cell (make sure add identefire for Cell *VideoCell*
 // TODO: Add UITableViewDelegate UITableViewDataSource in VideosTableViewController Class 
-class VideosTableViewController: ViewController
-{
+class VideosTableViewController: UIViewController {
+    
+    @IBOutlet weak var tableView: UITableView!
     
     //TODO: Call fetchVideos() Function
-
     
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+    }
     
     static func fetchVideos() -> [Video] {
         let v1 = Video(authorName: "David Tran", videoFileName: "v1", description: "This is an example of local video.", thumbnailFileName: "v1")
@@ -26,13 +32,12 @@ class VideosTableViewController: ViewController
     }
     
     
-       //TODO : Implement TableView Method
-       // TODO: return number of videos in array of Video
-
+    // TODO: Implement UITableView Delegate Methods
     
-        // TODO : Connect TableView view with cell
-        // TODO : connect cell with name of Video and Video Image  and return Cell
+    // TODO: Return number of videos in the array of videos
     
+    // TODO : Get the cell from tableView
+    // TODO : Connect the cell with name of Video and Video Image and return cell
     
     
     // MARK: - UITableViewDelegate

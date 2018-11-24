@@ -6,10 +6,9 @@
 
 import UIKit
 
-class VideoTableViewCell: UITableViewCell
-{
+class VideoTableViewCell: UITableViewCell {
     
-    //TODO: Cunnect thumbnailImageView & usernameLabel aoutlet from StoryBoard
+    //TODO: Connect thumbnailImageView & usernameLabel outlet from storyboard
    
     var video: Video! {
         didSet {

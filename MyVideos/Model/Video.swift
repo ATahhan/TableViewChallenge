@@ -5,13 +5,12 @@
 
 import Foundation
 
-struct Video
-{
+struct Video {
+    
     let authorName: String
     let videoFileName: String
     let description: String
     let thumbnailFileName: String
 
-    
 }
 
