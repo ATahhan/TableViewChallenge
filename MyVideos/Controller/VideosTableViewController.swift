@@ -5,13 +5,14 @@
 
 
 import UIKit
-// TODO Go To StoryBoard and Design your Cell (make sure add identefire for Cell *VideoCell*
+// TODO: Go To StoryBoard and Design your Cell (make sure add identefire for Cell *VideoCell*
 // TODO: Add UITableViewDelegate UITableViewDataSource in VideosTableViewController Class 
 class VideosTableViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    //TODO: Call fetchVideos() Function
+    // TODO: Call fetchVideos() Function and save the array
+    // Ex: var something = fetchV...()
     
 
     override func viewDidLoad() {
@@ -34,10 +35,12 @@ class VideosTableViewController: UIViewController {
     
     // TODO: Implement UITableView Delegate Methods
     
-    // TODO: Return number of videos in the array of videos
     
-    // TODO : Get the cell from tableView
-    // TODO : Connect the cell with name of Video and Video Image and return cell
+    // TODO: Return the array of videos count in `numberOfRowsIn`
+    
+    
+    // TODO: In `cellForRow` get the cell from tableView.deque...(:)
+    // TODO: Provide the cell with the data needed
     
     
     // MARK: - UITableViewDelegate

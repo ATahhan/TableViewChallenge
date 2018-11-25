@@ -9,6 +9,8 @@ import UIKit
 class VideoTableViewCell: UITableViewCell {
     
     //TODO: Connect thumbnailImageView & usernameLabel outlet from storyboard
+    @IBOutlet weak private var thumbnailImageView: UIImageView!
+    @IBOutlet weak private var usernameLabel: UILabel!
    
     var video: Video! {
         didSet {
@@ -18,10 +20,8 @@ class VideoTableViewCell: UITableViewCell {
     }
     
     func updateUI() {
-        //TODO : Design Custum Cell
-        // Hint : set thumbnailImageView.image to thumbnailFileName and set usernameLabel.text to authorName
-        
-       
+        //TODO: Design Custum Cell
+        //Hint: Use `video` object to set thumbnailImageView.image and usernameLabel.text
         
     }
 }
