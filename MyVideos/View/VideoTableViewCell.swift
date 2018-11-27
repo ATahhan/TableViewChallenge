@@ -22,6 +22,8 @@ class VideoTableViewCell: UITableViewCell {
     func updateUI() {
         //TODO: Design Custum Cell
         //Hint: Use `video` object to set thumbnailImageView.image and usernameLabel.text
+        //Hint: Use UIImage(named:) to construct a UIImage using the file name
+        
         
     }
 }

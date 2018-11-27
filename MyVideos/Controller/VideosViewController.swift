@@ -6,12 +6,12 @@
 
 import UIKit
 // TODO: Go To StoryBoard and Design your Cell (make sure add identefire for Cell *VideoCell*
-// TODO: Add UITableViewDelegate UITableViewDataSource in VideosTableViewController Class 
-class VideosTableViewController: UIViewController {
+// TODO: Add UITableViewDelegate UITableViewDataSource in VideosViewController Class. (Actual implementation of the delegate and dataSource functions are at the buttom)
+class VideosViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    // TODO: Call fetchVideos() Function and save the array
+    // TODO: Call fetchVideos() function and save the result in an array
     // Ex: var something = fetchV...()
     
 
@@ -33,7 +33,7 @@ class VideosTableViewController: UIViewController {
     }
     
     
-    // TODO: Implement UITableView Delegate Methods
+    // TODO: Implement UITableView Datasource Methods
     
     
     // TODO: Return the array of videos count in `numberOfRowsIn`
@@ -43,7 +43,7 @@ class VideosTableViewController: UIViewController {
     // TODO: Provide the cell with the data needed
     
     
-    // MARK: - UITableViewDelegate
+    // MARK: - UITableViewDataSource
     
     
     
